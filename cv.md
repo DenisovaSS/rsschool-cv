@@ -2,19 +2,18 @@
 
 ## My Contact Info:
 
-    -Phone: +380676224720
-    -E-mail: denissovamp@gamil.com
-    -GitHub:[DenisovaSS](https://github.com/DenisovaSS)
-
+- Phone: +380676224720
+- E-mail: denissovamp@gmail.com
+- GitHub:[DenisovaSS](https://github.com/DenisovaSS)
+    
 ## About Me:
 
 I worked business analyst in a pharma company. But I can't work now, so I decided to spend my free time improving my skills in IT. Or if it's will interesting, I plan to change my work direction.
 
 ## Skills:
-
-    -HTML
-    -CSS (Bootstrap)
-    -JavaScript (Fundamentals)
+- HTML
+- CSS (Bootstrap)
+- JavaScript (Fundamentals)
 
 ## Code Examples:
 
@@ -41,6 +40,6 @@ console.log(result);
 
 ## Languages:
 
-    -Ukrainian - native speaker
-    -Russian - native speaker
-    -English - B1
+1. Ukrainian - native speaker
+2. Russian - native speaker
+3. English - B1
