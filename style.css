@@ -22,12 +22,18 @@ body {
 .new {
   border-top: 2px dotted gray;
 }
+.section-subtitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 
+  color: #5c5470;
+}
 img {
   width: auto;
   height: 200px;
   margin: 5px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
 }
 header {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -70,35 +76,53 @@ footer {
   width: 50%;
   border-bottom: 1px solid #672f2f;
 }
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #352f44;
+}
 .section-title {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #304d4e;
+  letter-spacing: 2px;
+  color: #5c5470;
 }
 
 .section-profile-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   text-align: center;
-  text-transform: uppercase;
 }
 a {
   text-decoration: none;
-  color: #8a9e52;
+  color: #430f58;
   transition: color 0.5s;
 }
 a:hover {
-  color: #4b7551;
+  color: #6643b5;
+  text-decoration: underline;
 }
 .section-profile {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
+.project {
+  color: #c24d2c;
+  font-weight: bold;
+}
+.wrapper-footer {
+  padding: 2px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-school {
+  width: 73px;
+  height: 26px;
+}
+
 @media (max-width: 768px) {
   .section {
     width: 100%;
