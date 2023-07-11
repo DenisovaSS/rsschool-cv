@@ -248,7 +248,6 @@ button[disabled] {
   left: 20px;
   bottom: 15px;
 }
-
 .book_img {
   position: absolute;
   width: 200px;
@@ -258,4 +257,67 @@ button[disabled] {
 }
 .seasons {
   display: none;
+}
+.coffeShop_subtitle {
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.coffeShop_menu {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.coffeShop_menu_title {
+  color: var(--primary-color);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.coffeShop_menu_title_dessert {
+  text-align: right;
+}
+.menu_line {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu_dish {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.menu_hyphen {
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 100px;
+  height: 0;
+  border: 1px solid rgb(187, 148, 95);
+}
+.menu_price {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.contact_wrapper {
+  display: flex;
+  justify-content: space-between;
 }
