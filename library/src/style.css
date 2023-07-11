@@ -84,3 +84,178 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+.about {
+  min-height: 837px;
+  padding: 20px 0 40px 0;
+}
+.title {
+  color: var(--dark-color);
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.title_line {
+  margin: 20px auto;
+  width: 50px;
+  height: 1px;
+  background-color: var(--dark-color);
+}
+.subtitle {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.about_slider_wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  gap: 25px;
+}
+.about_img {
+  width: 450px;
+  height: 560px;
+}
+.wrapper_circle {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.about_wrapper_circle {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_wrapper_circle:hover {
+  cursor: pointer;
+}
+.about_circle {
+  width: 16px;
+  height: 16px;
+  background: var(--dark-color);
+  border-radius: 100%;
+}
+.favorites {
+  padding-right: 40px;
+  min-height: 1439px;
+  background: rgb(255, 255, 255);
+}
+.subtitle_favorites {
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+.wrapper_favorites_book_season {
+  margin-top: 40px;
+}
+.wrapper_favorites_book_season label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+span label {
+  margin-left: 90px;
+}
+.section_favorites_book_shelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.book_shelf_wrapper {
+  margin-top: 40px;
+  padding: 15px 20px;
+  width: 550px;
+  height: 555px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
+}
+.book_shelf_title {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.book_shelf_title_line {
+  margin-top: 15px;
+  width: 60px;
+  height: 0;
+  border: 1px solid rgb(187, 148, 95);
+}
+.name_book {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.autor_book {
+  text-transform: none;
+}
+.description_book {
+  margin-top: 20px;
+  width: 355px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.book_shelf_btn {
+  width: 75px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  color: var(--dark-color);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: all 200ms ease-in-out;
+}
+.book_shelf_btn:hover {
+  border-radius: 2px;
+  border: 1px solid #bb945f;
+  background: #bb945f;
+  cursor: pointer;
+}
+button disabled,
+button[disabled] {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  width: 75px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.book_img {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  right: -40px;
+  bottom: -1px;
+}
+.seasons {
+  display: none;
+}
