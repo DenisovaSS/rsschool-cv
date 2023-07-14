@@ -21,7 +21,7 @@ html {
 header {
   padding: 20px 20px;
   height: 90px;
-  background: rgb(12, 12, 14);
+  background: var(--dark-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -301,6 +301,7 @@ button[disabled] {
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
+  float: left;
 }
 .menu_hyphen {
   margin-left: 60px;
@@ -317,7 +318,199 @@ button[disabled] {
   line-height: 40px;
   letter-spacing: 2px;
 }
+.contacts {
+  margin-top: 60px;
+  min-height: 575px;
+}
 .contact_wrapper {
   display: flex;
   justify-content: space-between;
+}
+.contact_card_item {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.contact_card_item a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.contact_card_item_title {
+  margin-top: 40px;
+  font-weight: 700;
+}
+.contact_map {
+  margin-top: 40px;
+  width: 696px;
+  height: 414px;
+}
+.libraryCard {
+  margin-top: 60px;
+  min-height: 614px;
+}
+.libraryCard_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.library_member_card_section {
+  margin-top: 40px;
+}
+.library_member_card_section_title {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.019999999552965164%;
+  text-align: center;
+}
+.member_card_wrapper {
+  margin-top: 30px;
+  width: 600px;
+  height: 386px;
+  background: rgb(255, 255, 255);
+  border: 3px solid rgb(187, 148, 95);
+}
+.member_card {
+  padding: 20px;
+  margin: 20px;
+  width: 560px;
+  height: 272px;
+  background: rgb(187, 148, 95);
+}
+.member_card_title {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.019999999552965164%;
+  text-align: left;
+}
+.member_card_search {
+  margin-top: 22px;
+  width: 520px;
+  height: 66px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+.member_card_search::placeholder {
+  padding: 8px 0 8px 20px;
+  color: var(--gray-color);
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.019999999552965164%;
+  text-align: left;
+}
+.member_card_btn {
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 242px;
+  height: 44px;
+  border: 1px solid var(--dark-color);
+  color: var(--dark-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  border-radius: 2px;
+}
+.member_card_btn:hover {
+  border-radius: 2px;
+  border: 1px solid #bb945f;
+  background: #bb945f;
+  cursor: pointer;
+}
+.library_register_card {
+  margin-top: 40px;
+  width: 456px;
+  height: 253px;
+}
+.library_register_card_title {
+  color: rgb(0, 0, 0);
+  font-family: Forum;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.019999999552965164%;
+  text-align: right;
+}
+.library_register_card_recommend {
+  margin-top: 35px;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.019999999552965164%;
+  text-align: right;
+}
+.library_register_card_btn {
+  margin: 35px 0 0 20px;
+  width: 75px;
+  height: 30px;
+  border: 1px solid var(--dark-color);
+  border-radius: 2px;
+  color: var(--dark-color);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  float: right;
+}
+.library_register_card_btn:hover {
+  border-radius: 2px;
+  border: 1px solid #bb945f;
+  background: #bb945f;
+  cursor: pointer;
+}
+footer {
+  padding: 20px 0 44px 0;
+  min-height: 250px;
+  margin-top: 41px;
+  background: var(--dark-color);
+}
+.contact_info {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_info_adress_link {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+.contact_info_adress_link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.info_social {
+  margin-top: 10px;
+  display: flex;
+  gap: 18px;
+}
+.timetable_item {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: right;
+}
+.timetable_item_weekend {
+  margin-top: 10px;
+}
+.contact_info_line {
+  margin-top: 30px;
+  border: 1px solid rgb(255, 255, 255);
 }
